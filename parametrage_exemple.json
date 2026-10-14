@@ -1,0 +1,31 @@
+{
+  "journal": "AC",
+  "journal_lib": "Achats Deliveroo",
+  "aux": "",
+  "aux_lib": "Deliveroo",
+  "schema": [
+    {
+      "Base": "HT",
+      "Sens": "Débit",
+      "Compte": "622200",
+      "Libellé": "Commissions Deliveroo"
+    },
+    {
+      "Base": "TVA",
+      "Sens": "Débit",
+      "Compte": "445660",
+      "Libellé": "TVA déductible 20 %"
+    },
+    {
+      "Base": "TTC",
+      "Sens": "Crédit",
+      "Compte": "401DELIVEROO",
+      "Libellé": "Deliveroo"
+    }
+  ],
+  "adjustments": false,
+  "adjust_account": "471000",
+  "clearing_account": "467DELIVEROO",
+  "adjust_journal": "OD",
+  "merge_statement": true
+}
